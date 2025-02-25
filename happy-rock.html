@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Rock Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=HgzGwKwLmgM",
+      "https://www.youtube.com/watch?v=iPUmE-tne5U",
+      "https://www.youtube.com/watch?v=aQUlA8Hcv4s"
+    ];
+
+    function pickRandom() {
+      window.location.href = links[Math.floor(Math.random() * links.length)];
+    }
+  </script>
+</head>
+
+<body onload="pickRandom()">
+</body>
+</html>
