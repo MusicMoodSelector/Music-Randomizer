@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sad Country Song Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=IP8G4clUJBY", // Whiskey Lullaby - Brad Paisley ft. Alison Krauss
+      "https://www.youtube.com/watch?v=GZVZlRSLN4I", // Concrete Angel - Martina McBride
+      "https://www.youtube.com/watch?v=4N3N1MlvVc4", // Hurt - Johnny Cash
+      "https://www.youtube.com/watch?v=GoGqU4YgVOs", // The House That Built Me - Miranda Lambert
+      "https://www.youtube.com/watch?v=1ofm8eY2p9I", // If You're Reading This - Tim McGraw
+      "https://www.youtube.com/watch?v=Yc5OyXmHD0w", // Blue Ain't Your Color - Keith Urban
+      "https://www.youtube.com/watch?v=8khHqMntkbQ", // Don't Take The Girl - Tim McGraw
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // He Stopped Loving Her Today - George Jones
+      "https://www.youtube.com/watch?v=Gz2GVlQkn4Q", // I'm So Lonesome I Could Cry - Hank Williams
+      "https://www.youtube.com/watch?v=8N2k-gv6xNE", // Where Were You (When The World Stopped Turning) - Alan Jackson
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Go Rest High On That Mountain - Vince Gill
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Travelin' Soldier - Dixie Chicks
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Alyssa Lies - Jason Michael Carroll
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // The Dance - Garth Brooks
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // What Hurts The Most - Rascal Flatts
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // I Drive Your Truck - Lee Brice
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // If I Die Young - The Band Perry
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // You Were Mine - Dixie Chicks
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Every Light In The House - Trace Adkins
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // How Do I Live - LeAnn Rimes
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // I'm Already There - Lonestar
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Just A Dream - Carrie Underwood
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Remember When - Alan Jackson
+      "https://www.youtube.com/watch?v=G1lq40tR72Q", // Love, Me - Collin Raye
+      "https://www.youtube.com/watch?v=G1lq40tR72Q"  // When I Call Your Name - Vince Gill
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+</body>
+</html>

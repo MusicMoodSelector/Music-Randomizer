@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Energetic Country Song Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=4zAThXFOy2c", // "Save A Horse (Ride A Cowboy)" – Big & Rich
+      "https://www.youtube.com/watch?v=fxg2JbWA7Nk", // "Country Girl (Shake It For Me)" – Luke Bryan
+      "https://www.youtube.com/watch?v=d05tQrhNMkA", // "Boot Scootin’ Boogie" – Brooks & Dunn
+      "https://www.youtube.com/watch?v=ad1UeT4tTuA", // "Life Is A Highway" – Rascal Flatts
+      "https://www.youtube.com/watch?v=mvCgSqPZ4EM", // "Friends in Low Places" – Garth Brooks
+      "https://www.youtube.com/watch?v=e4ujS1er1r0", // "Chicken Fried" – Zac Brown Band
+      "https://www.youtube.com/watch?v=hvKyBcCDOB4", // "Wagon Wheel" – Darius Rucker
+      "https://www.youtube.com/watch?v=9b7yqsTz9v0", // "Honky Tonk Badonkadonk" – Trace Adkins
+      "https://www.youtube.com/watch?v=XuRxSstpW0I", // "Knee Deep" – Zac Brown Band ft. Jimmy Buffett
+      "https://www.youtube.com/watch?v=05V4CgSL4hs", // "Red Solo Cup" – Toby Keith
+      "https://www.youtube.com/watch?v=aRh-vBOS-dU", // "Barefoot Blue Jean Night" – Jake Owen
+      "https://www.youtube.com/watch?v=4zAThXFOy2c", // "Kick The Dust Up" – Luke Bryan
+      "https://www.youtube.com/watch?v=Vd6zYQPCgsc", // "Fast Cars and Freedom" – Rascal Flatts
+      "https://www.youtube.com/watch?v=QjOZgQdxKhg", // "Chattahoochee" – Alan Jackson
+      "https://www.youtube.com/watch?v=gjPvHwnSPXo", // "Drink In My Hand" – Eric Church
+      "https://www.youtube.com/watch?v=fuifUdeyhiI", // "All My Ex’s Live In Texas" – George Strait
+      "https://www.youtube.com/watch?v=frsEwaYAfJk", // "Beer For My Horses" – Toby Keith & Willie Nelson
+      "https://www.youtube.com/watch?v=fXw0jcYbqdo", // "T-R-O-U-B-L-E" – Travis Tritt
+      "https://www.youtube.com/watch?v=Jl7n2xuzQkI", // "Dixieland Delight" – Alabama
+      "https://www.youtube.com/watch?v=mN4pCTtDqVg", // "Tequila Makes Her Clothes Fall Off" – Joe Nichols
+      "https://www.youtube.com/watch?v=oTzbAl1IrtY", // "Beers Ago" – Toby Keith
+      "https://www.youtube.com/watch?v=91NExZP4-Lw", // "Young" – Kenny Chesney
+      "https://www.youtube.com/watch?v=9YSMd6lUQCY", // "I Like It, I Love It" – Tim McGraw
+      "https://www.youtube.com/watch?v=qSAvvRIkd1A"  // "Hillbilly Bone" – Blake Shelton ft. Trace Adkins
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+</body>
+</html>
