@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Energetic Rock Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=hTWKbfoikeg",
+      "https://www.youtube.com/watch?v=pAgnJDJN4VA",
+      "https://www.youtube.com/watch?v=CD-E-LDc384",
+      "https://www.youtube.com/watch?v=l482T0yNkeo",
+      "https://www.youtube.com/watch?v=v2AC41dglnM",
+      "https://www.youtube.com/watch?v=0qanF-91aJo",
+      "https://www.youtube.com/watch?v=pWB5JZRGl0U",
+      "https://www.youtube.com/watch?v=HQmmM_qwG4k",
+      "https://www.youtube.com/watch?v=fTTsY-oz6Go",
+      "https://www.youtube.com/watch?v=VdphvuyaV_I",
+      "https://www.youtube.com/watch?v=CmXWkMlKFkI",
+      "https://www.youtube.com/watch?v=o1tj2zJ2Wvg",
+      "https://www.youtube.com/watch?v=NUTGr5t3MoY",
+      "https://www.youtube.com/watch?v=SSbBvKaM6sk",
+      "https://www.youtube.com/watch?v=eW2qlKa6oHw",
+      "https://www.youtube.com/watch?v=0J2QdDbelmY",
+      "https://www.youtube.com/watch?v=tKjZuykKY1I",
+      "https://www.youtube.com/watch?v=CMX2lPum_pg",
+      "https://www.youtube.com/watch?v=j0lSpNtjPM8",
+      "https://www.youtube.com/watch?v=-r679Hhs9Zs",
+      "https://www.youtube.com/watch?v=86URGgqONvA",
+      "https://www.youtube.com/watch?v=SBjQ9tuuTJQ",
+      "https://www.youtube.com/watch?v=bWXazVhlyxQ",
+      "https://www.youtube.com/watch?v=aKp5TXgTqbc",
+      "https://www.youtube.com/watch?v=s88r_q7oufE"
+    ];
+
+    function pickRandom() {
+      window.location.href = links[Math.floor(Math.random() * links.length)];
+    }
+  </script>
+</head>
+
+<body onload="pickRandom()">
+</body>
+</html>

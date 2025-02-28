@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chill Rock Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=1lyu1KKwC74",
+      "https://www.youtube.com/watch?v=7QU1nvuxaMA",
+      "https://www.youtube.com/watch?v=GLvohMXgcBo",
+      "https://www.youtube.com/watch?v=yKNxeF4KMsY",
+      "https://www.youtube.com/watch?v=fgT9zGkiLig",
+      "https://www.youtube.com/watch?v=mzJj5-lubeM",
+      "https://www.youtube.com/watch?v=7qFfFVSerQo",
+      "https://www.youtube.com/watch?v=4H0BMfqFP9c",
+      "https://www.youtube.com/watch?v=IXdNnw99-Ic",
+      "https://www.youtube.com/watch?v=-J7J_IWUhls",
+      "https://www.youtube.com/watch?v=ErvgV4P6Fzc",
+      "https://www.youtube.com/watch?v=cs-XZ_dN4Hc",
+      "https://www.youtube.com/watch?v=JxPj3GAYYZ0",
+      "https://www.youtube.com/watch?v=WM7-PYtXtJM",
+      "https://www.youtube.com/watch?v=KtlgYxa6BMU",
+      "https://www.youtube.com/watch?v=s4_4abCWw-w",
+      "https://www.youtube.com/watch?v=TWcyIpul8OE",
+      "https://www.youtube.com/watch?v=ssdgFoHLwnk",
+      "https://www.youtube.com/watch?v=UAWcs5H-qgQ",
+      "https://www.youtube.com/watch?v=RBumgq5yVrA",
+      "https://www.youtube.com/watch?v=NDHY1D0tKRA",
+      "https://www.youtube.com/watch?v=UJWk_KNbDHo",
+      "https://www.youtube.com/watch?v=zvCBSSwgtg4",
+      "https://www.youtube.com/watch?v=VHrLPs3_1Fs",
+      "https://www.youtube.com/watch?v=GsPq9mzFNGY"
+    ];
+
+    function pickRandom() {
+      window.location.href = links[Math.floor(Math.random() * links.length)];
+    }
+  </script>
+</head>
+
+<body onload="pickRandom()">
+</body>
+</html>
