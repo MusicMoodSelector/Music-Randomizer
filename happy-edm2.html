@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy EDM Playlist</title>
+  <script>
+    window.onload = function() {
+      // Array with your Happy EDM Spotify playlist(s)
+      const happyEDMPlaylist = [
+        "https://open.spotify.com/playlist/37i9dQZF1DXaBz5J73td9C" // Replace with your Happy EDM playlist URL
+      ];
+      
+      // Randomly select a URL (if you only have one, it will always pick that)
+      const randomIndex = Math.floor(Math.random() * happyEDMPlaylist.length);
+      console.log("Redirecting to:", happyEDMPlaylist[randomIndex]);
+      window.location.href = happyEDMPlaylist[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting to your Happy EDM playlist...</p>
+</body>
+</html>
+
+
+
+
+
