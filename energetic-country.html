@@ -4,30 +4,31 @@
   <title>Energetic Country Song Randomizer</title>
   <script>
     const links = [
-      "https://www.youtube.com/watch?v=4zAThXFOy2c", // "Save A Horse (Ride A Cowboy)" – Big & Rich
-      "https://www.youtube.com/watch?v=fxg2JbWA7Nk", // "Country Girl (Shake It For Me)" – Luke Bryan
-      "https://www.youtube.com/watch?v=d05tQrhNMkA", // "Boot Scootin’ Boogie" – Brooks & Dunn
-      "https://www.youtube.com/watch?v=ad1UeT4tTuA", // "Life Is A Highway" – Rascal Flatts
-      "https://www.youtube.com/watch?v=mvCgSqPZ4EM", // "Friends in Low Places" – Garth Brooks
-      "https://www.youtube.com/watch?v=e4ujS1er1r0", // "Chicken Fried" – Zac Brown Band
+      "https://www.youtube.com/watch?v=S9ZbuIRPwFg", // "Save A Horse (Ride A Cowboy)" – Big & Rich
+      "https://www.youtube.com/watch?v=to6aVpfJ3qY", // "Beer for My Horses" – Toby Keith 
+      "https://www.youtube.com/watch?v=t8IaoftEHJw", // "Country Girl (Shake It For Me)" – Luke Bryan
+      "https://www.youtube.com/watch?v=OyWTyVaF5Uc", // "Boot Scootin’ Boogie" – Brooks & Dunn
+      "https://www.youtube.com/watch?v=R9I45U8t3M0", // "Life Is A Highway" – Rascal Flatts
+      "https://www.youtube.com/watch?v=fYnJZh5ZHIA", // "Cotton Eye Joe" - Rednex
+      "https://www.youtube.com/watch?v=jtEFOb3GYIk", // "The Way You Love Me" – Faith Hill
       "https://www.youtube.com/watch?v=hvKyBcCDOB4", // "Wagon Wheel" – Darius Rucker
-      "https://www.youtube.com/watch?v=9b7yqsTz9v0", // "Honky Tonk Badonkadonk" – Trace Adkins
-      "https://www.youtube.com/watch?v=XuRxSstpW0I", // "Knee Deep" – Zac Brown Band ft. Jimmy Buffett
-      "https://www.youtube.com/watch?v=05V4CgSL4hs", // "Red Solo Cup" – Toby Keith
+      "https://www.youtube.com/watch?v=EjpJCYfgyvc", // "Honky Tonk Badonkadonk" – Trace Adkins
+      "https://www.youtube.com/watch?v=1OXWashifQ0", // "Knee Deep" – Zac Brown Band ft. Jimmy Buffett
+      "https://www.youtube.com/watch?v=cd1HS2Yf7Yw", // "I Love This Life" - LOCASH
       "https://www.youtube.com/watch?v=aRh-vBOS-dU", // "Barefoot Blue Jean Night" – Jake Owen
-      "https://www.youtube.com/watch?v=4zAThXFOy2c", // "Kick The Dust Up" – Luke Bryan
-      "https://www.youtube.com/watch?v=Vd6zYQPCgsc", // "Fast Cars and Freedom" – Rascal Flatts
-      "https://www.youtube.com/watch?v=QjOZgQdxKhg", // "Chattahoochee" – Alan Jackson
-      "https://www.youtube.com/watch?v=gjPvHwnSPXo", // "Drink In My Hand" – Eric Church
-      "https://www.youtube.com/watch?v=fuifUdeyhiI", // "All My Ex’s Live In Texas" – George Strait
-      "https://www.youtube.com/watch?v=frsEwaYAfJk", // "Beer For My Horses" – Toby Keith & Willie Nelson
-      "https://www.youtube.com/watch?v=fXw0jcYbqdo", // "T-R-O-U-B-L-E" – Travis Tritt
-      "https://www.youtube.com/watch?v=Jl7n2xuzQkI", // "Dixieland Delight" – Alabama
-      "https://www.youtube.com/watch?v=mN4pCTtDqVg", // "Tequila Makes Her Clothes Fall Off" – Joe Nichols
-      "https://www.youtube.com/watch?v=oTzbAl1IrtY", // "Beers Ago" – Toby Keith
-      "https://www.youtube.com/watch?v=91NExZP4-Lw", // "Young" – Kenny Chesney
-      "https://www.youtube.com/watch?v=9YSMd6lUQCY", // "I Like It, I Love It" – Tim McGraw
-      "https://www.youtube.com/watch?v=qSAvvRIkd1A"  // "Hillbilly Bone" – Blake Shelton ft. Trace Adkins
+      "https://www.youtube.com/watch?v=bhnaqcUZ7GQ", // "Kick The Dust Up" – Luke Bryan
+      "https://www.youtube.com/watch?v=Ipygbwsv-rc", // "Fast Cars and Freedom" – Rascal Flatts
+      "https://www.youtube.com/watch?v=JW5UEW2kYvc", // "Chattahoochee" – Alan Jackson
+      "https://www.youtube.com/watch?v=usGv0gB2zEU", // "Drink In My Hand" – Eric Church
+      "https://www.youtube.com/watch?v=byQIPdHMpjc", // "All My Ex’s Live In Texas" – George Strait
+      "https://www.youtube.com/watch?v=frsEwaYAfJk", // "Achy Breaky Hear" – Billy Ray Cyrus 
+      "https://www.youtube.com/watch?v=szQEQb0Sa-g", // "T-R-O-U-B-L-E" – Travis Tritt
+      "https://www.youtube.com/watch?v=oTowId2CWHA", // " This One's For The Girls" – Martina McBride -
+      "https://www.youtube.com/watch?v=rGWwzR5eR7s", // "Sold (The Grundy County Auction Incident)" – John Michael Montgomery 
+      "https://www.youtube.com/watch?v=eBlc2FN99is", // "Honky Tonk Man" – Dwight Yoakam
+      "https://www.youtube.com/watch?v=sXWF_-FSLuc", // "Young" – Kenny Chesney
+      "https://www.youtube.com/watch?v=aAZVtj_JsCY", // "I Like It, I Love It" – Tim McGraw
+      "https://www.youtube.com/watch?v=w0WUlm_gnnA"  // "Hillbilly Bone" – Blake Shelton ft. Trace Adkins
     ];
 
     function pickRandom() {
