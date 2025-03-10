@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Energetic EDM Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=_ovdm2yX4MA", // Tremor – Dimitri Vegas, Martin Garrix, Like Mike
+      "https://www.youtube.com/watch?v=AeGfss2vsZg", // Turn Down for What – DJ Snake, Lil Jon
+      "https://www.youtube.com/watch?v=3ATQvgkXT9E", // Booyah – Showtek ft. We Are Loud & Sonny Wilson
+      "https://www.youtube.com/watch?v=CMbI7DmLCNI", // Tsunami – DVBBS & Borgeous
+      "https://www.youtube.com/watch?v=YJVmu6yttiw", // Summer – Calvin Harris
+      "https://www.youtube.com/watch?v=Q-GLuydiMe4", // Animals – Martin Garrix
+      "https://www.youtube.com/watch?v=iqABqCFOjEc", // Spaceman – Hardwell
+      "https://www.youtube.com/watch?v=8fEoWA9Vz3A", // Helicopter – Martin Garrix & Firebeatz
+      "https://www.youtube.com/watch?v=BgfcToAjfdc", // Wizard – Martin Garrix & Jay Hardway
+      "https://www.youtube.com/watch?v=6Cp6mKbRTQY", // Apollo – Hardwell ft. Amba Shepherd
+      "https://www.youtube.com/watch?v=kOkQ4T5WO9E", // Revolution – R3HAB & NERVO & Ummet Ozcan
+      "https://www.youtube.com/watch?v=JmpW1cg3-WI", // Reload – Sebastian Ingrosso & Tommy Trash
+      "https://www.youtube.com/watch?v=JRfuAukYTKg", // Rather Be – Clean Bandit ft. Jess Glynne (The Magician Remix)
+      "https://www.youtube.com/watch?v=j4IkB3N2eHs", // Waiting For Love – Avicii
+      "https://www.youtube.com/watch?v=C9slkeFXogU", // Secrets – Tiësto & KSHMR ft. Vassy
+      "https://www.youtube.com/watch?v=e2vBLd5Egnk", // Burn – KSHMR & DallasK
+      "https://www.youtube.com/watch?v=XFyTKmHkcJY", // Pursuit of Happiness – Steve Aoki Remix
+      "https://www.youtube.com/watch?v=l-OBK9Sgk50", // Five Hours – Deorro
+      "https://www.youtube.com/watch?v=fzNMd3Tu1Zw", // Blah Blah Blah – Armin van Buuren
+      "https://www.youtube.com/watch?v=QV8eiSA4vqc", // Stampede – Dimitri Vegas, Like Mike, DVBBS & Borgeous
+      "https://www.youtube.com/watch?v=nPvuNsRccVw", // Virus (How About Now) – Martin Garrix & MOTi
+      "https://www.youtube.com/watch?v=WY9WuX8JbM8", // Toulouse – Nicky Romero
+      "https://www.youtube.com/watch?v=eChdxmjHoMw", // Mammoth – Dimitri Vegas, Moguai & Like Mike
+      "https://www.youtube.com/watch?v=Spn1QEC1rDI", // Bigfoot – W&W
+      "https://www.youtube.com/watch?v=Wklof6T6iu0"  // Ping Pong – Armin van Buuren
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+  <noscript>Please enable JavaScript to experience this page.</noscript>
+</body>
+</html>

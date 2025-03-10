@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chilled EDM Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=60ItHLz5WEA", // Runaway (U & I) – Galantis
+      "https://www.youtube.com/watch?v=ioNng23DkIM", // Sunset Lover – Petit Biscuit
+      "https://www.youtube.com/watch?v=VFZzEnmVhYo", // Lean On – Major Lazer & DJ Snake ft. MØ
+      "https://www.youtube.com/watch?v=oBbjpAe2Pgs", // Firestone – Kygo ft. Conrad Sewell
+      "https://www.youtube.com/watch?v=50QK7hzm4yI", // Stay – Kygo ft. Maty Noyes
+      "https://www.youtube.com/watch?v=2d4e45fmUng", // Midnight City – M83
+      "https://www.youtube.com/watch?v=_zCoCa6b6cU", // ILYSB (Ferdinand Weber Remix) – LANY
+      "https://www.youtube.com/watch?v=WsptdUFthWI", // Falling – Alesso
+      "https://www.youtube.com/watch?v=aZ8fFeuQfqc", // It Ain't Me – Kygo & Selena Gomez
+      "https://www.youtube.com/watch?v=wJnBTPUQS5A", // Lights – Ellie Goulding (Bassnectar Remix)
+      "https://www.youtube.com/watch?v=_qU2MXeAz1E", // Gold – Adventure Club ft. Yuna
+      "https://www.youtube.com/watch?v=GKEfNuH9Uh0", // Innerbloom – RÜFÜS DU SOL
+      "https://www.youtube.com/watch?v=fWRISvgAygU", // Shelter – Porter Robinson & Madeon
+      "https://www.youtube.com/watch?v=MgYfl143azA", // Line of Sight – ODESZA ft. WYNNE & Mansionair
+      "https://www.youtube.com/watch?v=KrVC5dm5fFc", // Wake Me Up – Avicii (Acoustic)
+      "https://www.youtube.com/watch?v=rqqAnjY2Rmo", // Stole the Show – Kygo ft. Parson James
+      "https://www.youtube.com/watch?v=3gI_YBgU1QI", // On My Mind – 3LAU
+      "https://www.youtube.com/watch?v=UJZOl_3zKwQ", // Better – SG Lewis ft. Clairo
+      "https://www.youtube.com/watch?v=tDRxkYwxln8", // You Were Right – RÜFÜS DU SOL
+      "https://www.youtube.com/watch?v=xtOXiQToz64", // Say My Name – ODESZA ft. Zyra
+      "https://www.youtube.com/watch?v=YQE9QeWQlv8", // Jubel – Klingande
+      "https://www.youtube.com/watch?v=sXZjE6vu62Q", // Lose It – Oh Wonder (Jerry Folk Remix)
+      "https://www.youtube.com/watch?v=dcgqKW3P3oo", // Indian Summer – Jai Wolf
+      "https://www.youtube.com/watch?v=SFu2DfPDGeU", // Faded – ZHU
+      "https://www.youtube.com/watch?v=Ic-gZlPFTkQ"  // Ocean Drive – Duke Dumont
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+  <noscript>Please enable JavaScript to experience this page.</noscript>
+</body>
+</html>
+

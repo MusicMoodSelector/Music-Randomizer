@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Happy EDM Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=KrVC5dm5fFc", // Wake Me Up – Avicii
+      "https://www.youtube.com/watch?v=RgKAFK5djSk", // Clarity – Zedd ft. Foxes
+      "https://www.youtube.com/watch?v=IcrbM1l_BoI", // Levels – Avicii
+      "https://www.youtube.com/watch?v=YJVmu6yttiw", // Summer – Calvin Harris
+      "https://www.youtube.com/watch?v=kdemFfbS5H0", // Don't You Worry Child – Swedish House Mafia
+      "https://www.youtube.com/watch?v=Q-GLuydiMe4", // Animals – Martin Garrix
+      "https://www.youtube.com/watch?v=nntGTK2Fhb0", // Titanium – David Guetta ft. Sia
+      "https://www.youtube.com/watch?v=euCqAq6BRa4", // Feel So Close – Calvin Harris
+      "https://www.youtube.com/watch?v=7wtfhZwyrcc", // I Could Be The One – Avicii & Nicky Romero
+      "https://www.youtube.com/watch?v=bESGLojNYSo", // Sweet Nothing – Calvin Harris ft. Florence Welch
+      "https://www.youtube.com/watch?v=JRfuAukYTKg", // Rather Be – Clean Bandit ft. Jess Glynne
+      "https://www.youtube.com/watch?v=OPf0YbXqDm0", // Spectrum – Zedd ft. Matthew Koma
+      "https://www.youtube.com/watch?v=PfGaX8G0f2E", // Alive – Krewella
+      "https://www.youtube.com/watch?v=fLexgOxsZu0", // Reload – Sebastian Ingrosso & Tommy Trash
+      "https://www.youtube.com/watch?v=Ey_hgKCCYU4", // Beautiful Now – Zedd
+      "https://www.youtube.com/watch?v=60ItHLz5WEA", // Runaway (U & I) – Galantis
+      "https://www.youtube.com/watch?v=KDXyK4cZE5A", // Stay The Night – Zedd ft. Hayley Williams
+      "https://www.youtube.com/watch?v=hHUbLv4ThOo", // This Is What It Feels Like – Armin van Buuren ft. Trevor Guthrie
+      "https://www.youtube.com/watch?v=vg95MYlTb3c", // Language – Porter Robinson
+      "https://www.youtube.com/watch?v=gCYcHz2k5x0", // Latch – Disclosure ft. Sam Smith
+      "https://www.youtube.com/watch?v=PT2_F-1esPk", // Roses – The Chainsmokers ft. ROZES
+      "https://www.youtube.com/watch?v=FM7MFYoylVs", // Calling (Lose My Mind) – Sebastian Ingrosso & Alesso ft. Ryan Tedder
+      "https://www.youtube.com/watch?v=ac3HkriqdGQ", // How Deep Is Your Love – Calvin Harris & Disciples
+      "https://www.youtube.com/watch?v=jGflUbPQfW8", // Sun & Moon – Above & Beyond
+      "https://www.youtube.com/watch?v=wXhTHyIgQ_U"  // Faded – Alan Walker
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+  <noscript>Please enable JavaScript to experience this page.</noscript>
+</body>
+</html>
