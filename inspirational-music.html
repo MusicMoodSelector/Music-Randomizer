@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Inspirational Songs Randomizer</title>
+  <script>
+    const links = [
+      "https://www.youtube.com/watch?v=VjEq-r2agqc", // Peter Gabriel - Don't Give Up (ft.Kate Bush)
+      "https://www.youtube.com/watch?v=e_u9jifBjCs", // Chicane –Don't Give Up (feat. Bryan Adams)
+      "https://www.youtube.com/watch?v=cJ0KVxzxNrs", // Corey Hart - Never Surrender
+      "https://www.youtube.com/watch?v=txKhQ9cbhgo", // Bruce Springsteen – No Surrender
+      "https://www.youtube.com/watch?v=UUSh0QUbCDE", // Rod Stewart – Never Give up on a Dream
+      "https://www.youtube.com/watch?v=NG2zyeVRcbs", // Miley Cyrus - The Climb
+      "https://www.youtube.com/watch?v=xy6aCuiOESY", // Drew Baldridge - Tough People
+      "https://www.youtube.com/watch?v=CevxZvSJLk8", // Katy Perry – Roar
+      "https://www.youtube.com/watch?v=Xn676-fLq7I", // Kelly Clarkson – Stronger (What Doesn't Kill You)
+      "https://www.youtube.com/watch?v=rBrd_3VMC3c", // Louis Armstrong – What a Wonderful World
+      "https://www.youtube.com/watch?v=vx2u5uUu3DE", // Bon Jovi – It's My Life
+      "https://www.youtube.com/watch?v=xo1VInw-SKc", // Rachel Platten – Fight Song
+      "https://www.youtube.com/watch?v=1k8craCGpgs", // Journey – Don't Stop Believin'
+      "https://www.youtube.com/watch?v=eAfyFTzZDMM", // Christina Aguilera – Beautiful
+      "https://www.youtube.com/watch?v=qF3D2oiy6YA", // Bon Jovi - We Weren't Born To Follow
+      "https://www.youtube.com/watch?v=F5TMU6916U8", // Taylor Swift – Long Live
+      "https://www.youtube.com/watch?v=jYa1eI1hpDE", // Taylor Swift – Mean
+      "https://www.youtube.com/watch?v=nfWlot6h_JM", // Taylor Swift – Shake It Off
+      "https://www.youtube.com/watch?v=OygsHbM1UCw", // Heather Small - Proud
+      "https://www.youtube.com/watch?v=QUQsqBqxoR4", // Sara Bareilles – Brave
+      "https://www.youtube.com/watch?v=wEJd2RyGm8Q", // The Greatest Showman – This is me
+      "https://www.youtube.com/watch?v=7J0UOS5bKj4", // Fearless Soul - Fighter
+      "https://www.youtube.com/watch?v=04854XqcfCY", // Queen - We are the Champions
+      "https://www.youtube.com/watch?v=QGJuMBdaqIw", // Katy Perry – Firework
+      "https://www.youtube.com/watch?v=Wmc8bQoL-J0", // Destiny's Child - Survivor
+      "https://www.youtube.com/watch?v=nvlTJrNJ5lA", // Tom Petty And The Heartbreakers - I Won't Back Down
+      "https://www.youtube.com/watch?v=JRfuAukYTKg", // David Guetta - Titanium ft. Sia 
+      "https://www.youtube.com/watch?v=EmNclh9lVkU", // Labi Siffre - [Something Inside] So Strong
+      "https://www.youtube.com/watch?v=LKaXY4IdZ40", // Whitney Houston, Mariah Carey - When You Believe
+      "https://www.youtube.com/watch?v=ZbZSe6N_BXs", // Pharrell Williams - Happy
+      "https://www.youtube.com/watch?v=lXgkuM2NhYI", // David Bowie - Heroes
+      "https://www.youtube.com/watch?v=sENM2wA_FTg", // Imagine Dragons - It's Time
+      "https://www.youtube.com/watch?v=YaEG2aWJnZ8", // Sia - Unstoppable
+      "https://www.youtube.com/watch?v=h6Ol3eprKiw", // Sia - Never Give Up
+      "https://www.youtube.com/watch?v=GKSRyLdjsPA", // Sia - The Greatest
+      "https://www.youtube.com/watch?v=5y_KJAg8bHI", // Avicii - Wake Me Up 
+      "https://www.youtube.com/watch?v=HNBCVM4KbUM", // Bob Marley & The Wailers - Three Little Birds
+      "https://www.youtube.com/watch?v=d-diB65scQU", // Bobby McFerrin - Don't Worry Be Happy
+      "https://www.youtube.com/watch?v=b7k0a5hYnSI", // Natasha Bedingfield - Unwritten
+      "https://www.youtube.com/watch?v=3OnnDqH6Wj8", // Flo Rida - Good Feeling 
+      "https://www.youtube.com/watch?v=PstrAfoMKlc", // Christina Aguilera – Fighter
+      "https://www.youtube.com/watch?v=ds6o9in_y-o", // The Script - Hall of Fame (Official Video) ft. will.i.am
+      "https://www.youtube.com/watch?v=hdw1uKiTI5c"  // Katy Perry - Rise
+    ];
+
+    function pickRandom() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    }
+  </script>
+</head>
+<body onload="pickRandom()">
+  <noscript>Please enable JavaScript to experience this page.</noscript>
+</body>
+</html>
