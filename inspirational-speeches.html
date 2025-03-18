@@ -28,13 +28,15 @@
       \"https://www.youtube.com/watch?v=7Z8I8fFTjKM\"  // Taylor Swift - NYU Commencement Speech 2022
     ];
 
-    function pickRandom() {
+     function pickRandom() {
       const randomIndex = Math.floor(Math.random() * links.length);
       window.location.href = links[randomIndex];
     }
   </script>
 </head>
-<body onload=\"pickRandom()\">
-  <noscript>Please enable JavaScript to experience this page.</noscript>
+<body onload="pickRandom()">
+  <noscript>
+    Please enable JavaScript to experience the random redirection.
+  </noscript>
 </body>
 </html>
