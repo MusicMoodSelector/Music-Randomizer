@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=\"UTF-8\">
+  <meta charset="UTF-8">
   <title>Inspirational Speeches Randomizer</title>
   <script>
     const links = [
-      \"https://www.youtube.com/watch?v=mgmVOuLgFB0\", // Steve Jobs - Stanford Commencement Speech
-      \"https://www.youtube.com/watch?v=UNQhuFL6CWg\", // Admiral McRaven - Make Your Bed
-      \"https://www.youtube.com/watch?v=wnHW6o8WMas\", // Denzel Washington - Fall Forward
-      \"https://www.youtube.com/watch?v=pxBQLFLei70\", // Les Brown - You Gotta Be Hungry
-      \"https://www.youtube.com/watch?v=zLYECIjmnQs\", // Eric Thomas - How Bad Do You Want It?
-      \"https://www.youtube.com/watch?v=WibmcsEGLKo\", // J.K. Rowling - Harvard Commencement Speech
-      \"https://www.youtube.com/watch?v=kZlXWp6vFdE\", // Jim Carrey - Commencement Speech
-      \"https://www.youtube.com/watch?v=yaQZFhrW0fU\", // Arnold Schwarzenegger - Rules for Success
-      \"https://www.youtube.com/watch?v=D_Vg4uyYwEk\", // Oprah Winfrey - Harvard Commencement Speech
-      \"https://www.youtube.com/watch?v=26U_seo0a1g\", // Martin Luther King Jr. - I Have a Dream
-      \"https://www.youtube.com/watch?v=Sp-SAPdKDUw\", // Rocky Balboa Inspirational Speech
-      \"https://www.youtube.com/watch?v=TBuIGBCF9jc\", // Matthew McConaughey - University of Houston Speech
-      \"https://www.youtube.com/watch?v=UF8uR6Z6KLc\", // Simon Sinek - Start With Why
-      \"https://www.youtube.com/watch?v=hN8CKwdosjE\", // Kobe Bryant - The Mindset of a Winner
-      \"https://www.youtube.com/watch?v=HZfOgTwpuHI\", // David Goggins - Can't Hurt Me
-      \"https://www.youtube.com/watch?v=-rFJsLzhFzU\", // Tony Robbins - Why We Do What We Do
-      \"https://www.youtube.com/watch?v=GXoErccq0vw\", // Will Smith - Motivational Compilation
-      \"https://www.youtube.com/watch?v=ub82Xb1C8os\", // Elon Musk - Never Give Up
-      \"https://www.youtube.com/watch?v=E27T56kfhBg\", // Muhammad Ali - I'm Going to Show You How Great I Am
-      \"https://www.youtube.com/watch?v=xp2qjshr-r4\",  // Nick Vujicic - No Arms, No Legs, No Worries
-      \"https://www.youtube.com/watch?v=7Z8I8fFTjKM\"  // Taylor Swift - NYU Commencement Speech 2022
+      "https://www.youtube.com/watch?v=mgmVOuLgFB0", // Steve Jobs - Stanford Commencement Speech
+      "https://www.youtube.com/watch?v=UNQhuFL6CWg", // Admiral McRaven - Make Your Bed
+      "https://www.youtube.com/watch?v=wnHW6o8WMas", // Denzel Washington - Fall Forward
+      "https://www.youtube.com/watch?v=pxBQLFLei70", // Les Brown - You Gotta Be Hungry
+      "https://www.youtube.com/watch?v=zLYECIjmnQs", // Eric Thomas - How Bad Do You Want It?
+      "https://www.youtube.com/watch?v=WibmcsEGLKo", // J.K. Rowling - Harvard Commencement Speech
+      "https://www.youtube.com/watch?v=kZlXWp6vFdE", // Jim Carrey - Commencement Speech
+      "https://www.youtube.com/watch?v=yaQZFhrW0fU", // Arnold Schwarzenegger - Rules for Success
+      "https://www.youtube.com/watch?v=D_Vg4uyYwEk", // Oprah Winfrey - Harvard Commencement Speech
+      "https://www.youtube.com/watch?v=26U_seo0a1g", // Martin Luther King Jr. - I Have a Dream
+      "https://www.youtube.com/watch?v=Sp-SAPdKDUw", // Rocky Balboa Inspirational Speech
+      "https://www.youtube.com/watch?v=TBuIGBCF9jc", // Matthew McConaughey - University of Houston Speech
+      "https://www.youtube.com/watch?v=UF8uR6Z6KLc", // Simon Sinek - Start With Why
+      "https://www.youtube.com/watch?v=hN8CKwdosjE", // Kobe Bryant - The Mindset of a Winner
+      "https://www.youtube.com/watch?v=HZfOgTwpuHI", // David Goggins - Can't Hurt Me
+      "https://www.youtube.com/watch?v=-rFJsLzhFzU", // Tony Robbins - Why We Do What We Do
+      "https://www.youtube.com/watch?v=GXoErccq0vw", // Will Smith - Motivational Compilation
+      "https://www.youtube.com/watch?v=ub82Xb1C8os", // Elon Musk - Never Give Up
+      "https://www.youtube.com/watch?v=E27T56kfhBg", // Muhammad Ali - I'm Going to Show You How Great I Am
+      "https://www.youtube.com/watch?v=xp2qjshr-r4", // Nick Vujicic - No Arms, No Legs, No Worries
+      "https://www.youtube.com/watch?v=7Z8I8fFTjKM"  // Taylor Swift - NYU Commencement Speech 2022
     ];
 
-     function pickRandom() {
+    function pickRandom() {
       const randomIndex = Math.floor(Math.random() * links.length);
       window.location.href = links[randomIndex];
     }
