@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=\"UTF-8\">
+  <meta charset="UTF-8">
   <title>Old School EDM Songs Randomizer</title>
   <script>
     const links = [
-      \"https://www.youtube.com/watch?v=y6120QOlsfU\", // Darude - Sandstorm
-      \"https://www.youtube.com/watch?v=DvyCbevQbtI\", // Robert Miles - Children
-      \"https://www.youtube.com/watch?v=FGBhQbmPwH8\", // Daft Punk - One More Time
-      \"https://www.youtube.com/watch?v=P8JEm4d6Wu4\", // Faithless - Insomnia
-      \"https://www.youtube.com/watch?v=Lgs9QUtWc3M\", // Alice Deejay - Better Off Alone
-      \"https://www.youtube.com/watch?v=FQlAEiCb8m0\", // Stardust - Music Sounds Better With You
-      \"https://www.youtube.com/watch?v=1DcABTJoWCc\", // ATB - 9PM (Till I Come)
-      \"https://www.youtube.com/watch?v=pwPkWV9ObwY\", // Corona - Rhythm of the Night
-      \"https://www.youtube.com/watch?v=zb87vKFKe2g\", // Haddaway - What Is Love
-      \"https://www.youtube.com/watch?v=JYIaWeVL1JM\", // SNAP! - Rhythm Is a Dancer
-      \"https://www.youtube.com/watch?v=frb34jzxrf0\", // Eiffel 65 - Blue (Da Ba Dee)
-      \"https://www.youtube.com/watch?v=P3MtiifXp9k\", // La Bouche - Be My Lover
-      \"https://www.youtube.com/watch?v=llyiQ4I-mcQ\", // Vengaboys - Boom, Boom, Boom, Boom!!
-      \"https://www.youtube.com/watch?v=Pav2f4b-1ZE\", // Real McCoy - Another Night
-      \"https://www.youtube.com/watch?v=9EcjWd-O4jI\", // Technotronic - Pump Up The Jam
-      \"https://www.youtube.com/watch?v=ZMtf_ouMTHw\", // Culture Beat - Mr. Vain
-      \"https://www.youtube.com/watch?v=d73tiBBzvFM\", // Ace of Base - All That She Wants
-      \"https://www.youtube.com/watch?v=p3l7fgvrEKM\", // GALA - Freed from desire
-      \"https://www.youtube.com/watch?v=8mGBaXPlri8\", // t.A.T.u. - All The Things She Said
-      \"https://www.youtube.com/watch?v=4YxTa1AUqps\", // Scooter - The Logical Song
-      \"https://www.youtube.com/watch?v=qetW6R9Jxs4\", // Eric Prydz – Call On Me
-      \"https://www.youtube.com/watch?v=MYVmMweuPxk\", // N-Trance - Set You Free
-      \"https://www.youtube.com/watch?v=efjc146v3hA\", // Ian Van Dahl - Castles In The Sky 
-      \"https://www.youtube.com/watch?v=bv1Xc_TCI2I\", // Sash! Feat Tina Cousins - Mysterious Times
-      \"https://www.youtube.com/watch?v=TxvpctgU_s8\", // Armin van Buuren - In And Out Of Love
-      \"https://www.youtube.com/watch?v=2EaE0_gQLw0\", // Tiësto - Adagio For Strings 
-      \"https://www.youtube.com/watch?v=RK-PAzu1Tmw\", // Tina Cousins - Pray
-      \"https://www.youtube.com/watch?v=wmin5WkOuPw\"  // The Prodigy - Firestarter
+      "https://www.youtube.com/watch?v=y6120QOlsfU", // Darude - Sandstorm
+      "https://www.youtube.com/watch?v=DvyCbevQbtI", // Robert Miles - Children
+      "https://www.youtube.com/watch?v=FGBhQbmPwH8", // Daft Punk - One More Time
+      "https://www.youtube.com/watch?v=P8JEm4d6Wu4", // Faithless - Insomnia
+      "https://www.youtube.com/watch?v=Lgs9QUtWc3M", // Alice Deejay - Better Off Alone
+      "https://www.youtube.com/watch?v=FQlAEiCb8m0", // Stardust - Music Sounds Better With You
+      "https://www.youtube.com/watch?v=1DcABTJoWCc", // ATB - 9PM (Till I Come)
+      "https://www.youtube.com/watch?v=pwPkWV9ObwY", // Corona - Rhythm of the Night
+      "https://www.youtube.com/watch?v=zb87vKFKe2g", // Haddaway - What Is Love
+      "https://www.youtube.com/watch?v=JYIaWeVL1JM", // SNAP! - Rhythm Is a Dancer
+      "https://www.youtube.com/watch?v=frb34jzxrf0", // Eiffel 65 - Blue (Da Ba Dee)
+      "https://www.youtube.com/watch?v=P3MtiifXp9k", // La Bouche - Be My Lover
+      "https://www.youtube.com/watch?v=llyiQ4I-mcQ", // Vengaboys - Boom, Boom, Boom, Boom!!
+      "https://www.youtube.com/watch?v=Pav2f4b-1ZE", // Real McCoy - Another Night
+      "https://www.youtube.com/watch?v=9EcjWd-O4jI", // Technotronic - Pump Up The Jam
+      "https://www.youtube.com/watch?v=ZMtf_ouMTHw", // Culture Beat - Mr. Vain
+      "https://www.youtube.com/watch?v=d73tiBBzvFM", // Ace of Base - All That She Wants
+      "https://www.youtube.com/watch?v=p3l7fgvrEKM", // GALA - Freed from desire
+      "https://www.youtube.com/watch?v=8mGBaXPlri8", // t.A.T.u. - All The Things She Said
+      "https://www.youtube.com/watch?v=4YxTa1AUqps", // Scooter - The Logical Song
+      "https://www.youtube.com/watch?v=qetW6R9Jxs4", // Eric Prydz – Call On Me
+      "https://www.youtube.com/watch?v=MYVmMweuPxk", // N-Trance - Set You Free
+      "https://www.youtube.com/watch?v=efjc146v3hA", // Ian Van Dahl - Castles In The Sky 
+      "https://www.youtube.com/watch?v=bv1Xc_TCI2I", // Sash! Feat Tina Cousins - Mysterious Times
+      "https://www.youtube.com/watch?v=TxvpctgU_s8", // Armin van Buuren - In And Out Of Love
+      "https://www.youtube.com/watch?v=2EaE0_gQLw0", // Tiësto - Adagio For Strings 
+      "https://www.youtube.com/watch?v=RK-PAzu1Tmw", // Tina Cousins - Pray
+      "https://www.youtube.com/watch?v=wmin5WkOuPw"  // The Prodigy - Firestarter
     ];
 
     function pickRandom() {
@@ -41,5 +41,9 @@
     }
   </script>
 </head>
-<body onload=\"pickRandom()\">
-  <nos
+<body onload="pickRandom()">
+  <noscript>
+    Please enable JavaScript to experience the random redirection.
+  </noscript>
+</body>
+</html>
